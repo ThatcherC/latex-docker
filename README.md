@@ -1,3 +1,12 @@
+Quickstart: @ThatcherC's version of this repo can be built with
+```
+docker build -t thatcherc/latex-ubuntu -f Dockerfile.ubuntu .
+```
+A similar command could be used to build the smaller version specified in `Dockerfile.basic`.
+
+From there, you can use `latexdockercmd.sh` as described below, or copy `build-latex.sh`
+into your LaTeX project's directory and run that script there.
+
 Latex docker container [![Docker hub](https://img.shields.io/docker/pulls/blang/latex.svg)](https://hub.docker.com/r/blang/latex/)
 ======================
 
